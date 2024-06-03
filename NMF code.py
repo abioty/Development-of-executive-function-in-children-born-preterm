@@ -16,7 +16,7 @@ n_components_range = range(2, 31)  # Adjust this range as needed
 
 # Initialize variables
 relative_errors = []
-threshold_relative_error = 0.02  # 5% relative error threshold
+threshold_relative_error = 0.05  # 5% relative error threshold
 optimal_n_components = None  # Placeholder for the optimal number of components
 
 # Calculate the norm of the original data for normalization
